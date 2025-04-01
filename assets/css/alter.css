@@ -9,7 +9,7 @@
 :root {
   --background-color: #ffffff;
   --default-color: #2f4e64;
-  --heading-color: #3f0069;
+  --heading-color: #075c2c;
   --accent-color: #10066e;
   --contrast-color: #ffffff;
 }
@@ -794,7 +794,7 @@ section,
   padding: 120px 0 60px 0;
   display: flex;
   align-items: center;
-  background: linear-gradient(rgba(25, 79, 42, 0.85),  rgb(10, 61, 32)), url(circuit.jpg) center;
+  background: linear-gradient(rgba(37, 111, 60, 0.466),  rgba(10, 61, 32, 0.58)), url(circuit.jpg) center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -960,6 +960,7 @@ section,
 .why-us {
   --background-color: color-mix(in srgb, var(--heading-color), transparent 95%);
   padding: 30px 0;
+  background: rgb(207, 240, 208);
 }
 
 .why-us .content h3 {
@@ -2076,5 +2077,16 @@ section,
   background: linear-gradient(rgba(49, 118, 71, 0.553),  rgba(51, 107, 75, 0.612)), url(circuit.jpg) center;
   background-repeat: no-repeat;
   background-size: cover;
+
+}
+.Text{
+  z-index: 10;
+  position: relative;
+  top: 100;
+}
+.text h1{
+  color: rgb(71, 144, 88);
+
+
 
 }
