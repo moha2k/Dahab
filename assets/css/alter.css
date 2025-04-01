@@ -10,7 +10,7 @@
   --background-color: #ffffff;
   --default-color: #2f4e64;
   --heading-color: #075c2c;
-  --accent-color: #10066e;
+  --accent-color: #055316;
   --contrast-color: #ffffff;
 }
 
@@ -18,7 +18,7 @@
 :root {
   --nav-color: #ffffff;
 
-  --nav-hover-color: #0e166f;
+  --nav-hover-color: #0e136f;
   --nav-dropdown-background-color: #ffffff;
   --nav-dropdown-color: #444444;
   --nav-dropdown-hover-color: #6147e4;
@@ -794,7 +794,7 @@ section,
   padding: 120px 0 60px 0;
   display: flex;
   align-items: center;
-  background: linear-gradient(rgba(37, 111, 60, 0.466),  rgba(10, 61, 32, 0.58)), url(circuit.jpg) center;
+  background: linear-gradient(rgba(37, 111, 60, 0.731),  rgba(10, 61, 32, 0.799)), url(circuit.jpg) center;
   background-repeat: no-repeat;
   background-size: cover;
 }
