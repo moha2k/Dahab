@@ -1905,7 +1905,14 @@ section,
     transform: rotate(360deg);
   }
 }
+.big{
+  padding: 0;
+  margin-top: 20px;
+  width: 100%;
+  background: #c8e6d4;
 
+
+}
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
@@ -2074,9 +2081,6 @@ section,
   transform: scale(1.2);
 }
 .section1{
-  background: linear-gradient(rgba(49, 118, 71, 0.553),  rgba(51, 107, 75, 0.612)), url(circuit.jpg) center;
-  background-repeat: no-repeat;
-  background-size: cover;
 
 }
 .Text{
